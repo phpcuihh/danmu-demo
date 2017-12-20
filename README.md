@@ -12,5 +12,14 @@ https://www.w3cschool.cn/swoole/swoole-websocket.html这里的一段代码
 
 安装swoole扩展参考cuihuanhuan.github.io
 
+
+运行:
+
+运行WebSocket服务端
+/usr/local/php/bin/php server.php
+
+运行WebSocket客户端
+在浏览器中访问http://192.168.17.12/danmu-demo-master/
+
 ![img](swoole-demo-1.png)
 ![img](swoole-demo-2.png)
