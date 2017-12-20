@@ -10,7 +10,7 @@
 		#danmu {
 			width: 640px;
 			height: 360px;
-			background-color: gray;
+			background-color: white;
 		}
 		#send_box {
 			position: absolute;
@@ -23,7 +23,8 @@
 	<script type="text/javascript">
 		console.log('code by 昌维 2016-06-25 03:14:51');
 
-			var ws = new WebSocket("ws://192.168.1.107:1997");
+			var ws = new WebSocket("ws://192.168.17.12:82/danmu-demo-master/server.php");
+
 			ws.onopen = function(){
 			    console.log("握手成功");
 			    ws.send('hello world!!!');
@@ -59,7 +60,7 @@
 			$('#danmu').danmu('danmu_start');
 		});
 		function send() {+
-			console.log(document.getElementById('content').value);
+			//console.log(document.getElementById('content').value);
 			ws.send(document.getElementById('content').value);
 		}
 	</script>

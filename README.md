@@ -1,5 +1,16 @@
+参考https://github.com/cw1997/danmu-demo
+
+我运行后出现了一些错误,就换掉了serverl.php的代码
+
+用了swoole手册中swoole WebSocket实例的代码
+
+https://www.w3cschool.cn/swoole/swoole-websocket.html这里的一段代码
+
 # 前端HTML5 websocket结合后端swoole实现的弹幕系统
 服务端使用php的swoole扩展，不到二十行代码。前端使用jquery.danmu插件。
 
-使用方法：liunx发行版安装php5.3+并且编译swoole扩展，在php.ini中加入extension=swoole.so之后打开命令行，cd到server.php所在目录，修改文件中的监听IP和端口，使用php server.php即开启服务端。
-然后客户端html中修改websocket连接的服务端IP和端口，打开页面即可开始体验该实时弹幕系统。
+
+安装swoole扩展参考cuihuanhuan.github.io
+
+![img](swoole-demo-1.png)
+![img](swoole-demo-2.png)
